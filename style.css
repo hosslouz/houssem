@@ -1,0 +1,125 @@
+html {
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  font-size: 20px;
+  color: rgb(71, 3, 3);
+  margin: 20px;
+  justify-content: left;
+  text-align: center;
+}
+li {
+  display: inline;
+  background-color: rgb(126, 95, 95);
+  border-radius: 20px;
+  height: 25px;
+  width: 80px;
+}
+
+.yelow-titles {
+  text-align: center;
+  color: rgb(236, 12, 117);
+  text-decoration: rgb(236, 9, 9) 4px 4px;
+}
+
+.p1 {
+  height: 250px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(250, 252, 247);
+  float: left;
+  width: 50%;
+  font-size: 20px;
+}
+
+.p2 {
+  height: 250px;
+  color: rgb(250, 252, 247);
+  float: right;
+  width: 50%;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.audio-player {
+  display: flex;
+  height: 40px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.videoplayer {
+  text-align: center;
+}
+table {
+  display: flex;
+  border: none;
+  justify-content: center;
+  color: rgb(9, 10, 10);
+}
+
+label {
+  color: rgb(14, 14, 13);
+  flex-direction: row;
+  width: 400px;
+  line-height: 26px;
+
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-image: url(pictures/background1.jpg);
+  width: 100%;
+  text-align: center;
+  color: rgb(46, 226, 14);
+}
+span {
+  color: green;
+}
+p {
+  text-align: center;
+}
+.right {
+  float: right;
+}
+.left,
+.right {
+  display: inline-block;
+}
+
+.submit {
+  margin-left: 111px;
+}
+.copyrights {
+  color: white;
+}
+a:hover {
+  color: rgba(214, 25, 25, 0.568);
+}
+
+.p1:hover {
+  color: tomato;
+}
+
+.p2:hover {
+  color: tomato;
+}
+
+form > input {
+  float: right;
+}
+form {
+  width: 250px;
+}
+
+hr {
+  width: 50%;
+  border-style: dotted none none;
+  color: red;
+}
